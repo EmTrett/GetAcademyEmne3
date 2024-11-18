@@ -2,9 +2,9 @@ namespace GetAcademyEmne3.Assignments;
 
 public class Assignment315E
 {
-    public static void Run()
+    public static void Run(int startValue, int endValue, int step)
     {
-        var numbers = GetNumbers(100, 1000, 25);
+        var numbers = GetNumbers(startValue, endValue, step);
 
         foreach (var number in numbers)
         {
@@ -19,7 +19,8 @@ public class Assignment315E
         while (current < endValue)
         {
             current += step;
-            numbers.Add(current);
+            if(current <= endValue) numbers.Add(current);
+            else continue;
         }
     
         return numbers.ToArray();
