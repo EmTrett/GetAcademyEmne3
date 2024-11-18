@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using GetAcademyEmne3.Assignments;
 using GetAcademyEmne3.Assignments.Assignment315I;
+using GetAcademyEmne3.Assignments.Assignment323.Assignment323A;
 using GetAcademyEmne3.Assignments.Assignments321.Assignment321A;
 using GetAcademyEmne3.Assignments.Assignments321.Assignment321C;
 
@@ -25,5 +26,8 @@ using GetAcademyEmne3.Assignments.Assignments321.Assignment321C;
 // var assignment321A = new Assignment321A();
 // Assignment321A.Run();
 
-var assignment321C = new Assignment321C();
-Assignment321C.Run();
+// var assignment321C = new Assignment321C();
+// Assignment321C.Run();
+
+var assignment323A = new Assignment323A();
+Assignment323A.Run();
