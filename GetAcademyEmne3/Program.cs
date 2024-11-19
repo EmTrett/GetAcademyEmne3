@@ -3,6 +3,7 @@ using GetAcademyEmne3.Assignments;
 using GetAcademyEmne3.Assignments.Assignment315I;
 using GetAcademyEmne3.Assignments.Assignment323.Assignment323A;
 using GetAcademyEmne3.Assignments.Assignments321.Assignment321A;
+using GetAcademyEmne3.Assignments.Assignments321.Assignment321B;
 using GetAcademyEmne3.Assignments.Assignments321.Assignment321C;
 
 // var assignment315A = new Assignment315A();
@@ -29,5 +30,8 @@ using GetAcademyEmne3.Assignments.Assignments321.Assignment321C;
 // var assignment321C = new Assignment321C();
 // Assignment321C.Run();
 
-var assignment323A = new Assignment323A();
-Assignment323A.Run();
+// var assignment323A = new Assignment323A();
+// Assignment323A.Run();
+
+var assignment321B = new Assignment321B();
+Assignment321B.Run();
