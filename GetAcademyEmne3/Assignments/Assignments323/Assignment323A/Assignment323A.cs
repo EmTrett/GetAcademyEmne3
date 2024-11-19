@@ -28,7 +28,9 @@ public class Assignment323A
             else if (command == "B") match.AddAwayGoals();
             Console.WriteLine($"Stillingen er {match.HomeGoals}-{match.AwayGoals}.");
         }
-        
-        Console.WriteLine($"Du tippet {match.ResultText()}");
+
+        var isBetCorrect = match.IsBetCorrect();
+        var isBetCorrectText = isBetCorrect ? "riktig" : "feil";
+        Console.WriteLine($"Du tippet {isBetCorrectText}");
     }
 }
