@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+actor User
+collections betsText
+participant Run
+collections matches
+note right
+    matches is and object created by the TwelveMatches class.
+end note
+
+User -> betsText : Inputs bets
+group loop
+betsText -> matches : creates object from \nTwelveMatches
+end
+group while
+User -> Run : command \nif 'x' break \nelse matchNo: int
+User -> Run : team: string
+
+Run -> matches : AddGoal(matchNo, team)
+Run -> matches : ShowAllScores()
+Run -> matches : ShowCorrectCount()
+
+end
+@enduml

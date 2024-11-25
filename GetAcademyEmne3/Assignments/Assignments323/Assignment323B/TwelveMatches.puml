@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TwelveMatches
+class Assignment323B
+
+TwelveMatches <|--|> Assignment323B
+class Assignment323B{
+    betsText: string
+    matches: new TwelveMatches
+    while(true)
+    Run()
+}
+
+class TwelveMatches{
+    Matches: List<Match>
+    bets: string[]
+    AddGoal()
+    ShowAllScores()
+    ShowCorrectCount() 
+}
+
+
+@enduml
