@@ -1,0 +1,37 @@
+@startuml
+
+Board <|-- Positions
+Board <|--|> Square
+GameConsole <|-- Board
+
+class GameConsole{
+    Show(Board board)
+}
+
+class Square{
+    FillSquare()
+    ChangePlayer(bool)
+    private bool _isEmpty = true;
+    private char _symbol = ' ';
+    private bool _isPlayerOne;
+}
+
+class Board{
+    Mark(string positions)
+    Square[] Squares [9]
+    playerTurn
+}
+
+enum Positions {
+       A1 = 0,
+       B1 = 1,
+       C1 = 2,
+       A2 = 3,
+       B2 = 4,
+       C2 = 5,
+       A3 = 6,
+       B3 = 7,
+       C3 = 8,
+}
+
+@enduml
