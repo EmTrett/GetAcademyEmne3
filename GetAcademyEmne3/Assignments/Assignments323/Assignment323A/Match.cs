@@ -2,7 +2,8 @@ namespace GetAcademyEmne3.Assignments.Assignments323.Assignment323A;
 
 public class Match(string bet)
 {
-    private string Bet { get; } = bet;
+    public bool IsFinished = false;
+    public string Bet { get; } = bet;
     public int HomeGoals { get; private set; }
     public int AwayGoals { get; private set; }
     public void AddHomeGoals() => HomeGoals++;

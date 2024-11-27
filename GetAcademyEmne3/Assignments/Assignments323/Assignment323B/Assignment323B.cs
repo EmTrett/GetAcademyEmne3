@@ -16,8 +16,9 @@ public class Assignment323B
             var command = Console.ReadLine().ToUpper();
             if (command == "X") break;
             var matchNo = Convert.ToInt32(command);
-            Console.Write($"Scoring i kamp {matchNo}. \r\nSkriv H for hjemmelag eller B for bortelag: ");
+            Console.Write($"Scoring i kamp {matchNo}. \r\nSkriv H for hjemmelag eller B for bortelag X for kamp ferdig: ");
             var team = Console.ReadLine().ToUpper();
+            if (team == "X") matches.FinishGame(matchNo);
             matches.AddGoal(matchNo, team);
             matches.ShowAllScores();
             matches.ShowCorrectCount();

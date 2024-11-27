@@ -38,8 +38,8 @@ using GetAcademyEmne3.Assignments.Assignments323.Assignment323C;
 // var assignment323A = new Assignment323A();
 // Assignment323A.Run();
 
-// var assignment323B = new Assignment323B();
-// Assignment323B.Run();
+var assignment323B = new Assignment323B();
+Assignment323B.Run();
 
-var assignment323C = new Assignment323C();
-Assignment323C.Run();
+// var assignment323C = new Assignment323C();
+// Assignment323C.Run();

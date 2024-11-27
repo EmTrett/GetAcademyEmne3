@@ -13,6 +13,13 @@ public class TwelveMatches()
             Matches.Add(new Match(bets[i].ToUpper()));
         }
     }
+
+    public void FinishGame(int matchNumber)
+    {
+        var i = matchNumber - 1;
+        Matches[i].IsFinished = true;
+    }
+
     public void AddGoal(int matchNumber, string teamCode)
     {
         var i = matchNumber - 1;
@@ -33,7 +40,10 @@ public class TwelveMatches()
         Console.WriteLine("Kamper:");
         for(var i = 0; i < 12; i++)
         {
-            Console.WriteLine($"Match #{i + 1} stilling: {Matches[i].GetScore()}");
+            if (Matches[i].IsFinished)
+            {
+                Console.WriteLine($"Match #{i + 1} stilling: {Matches[i].GetScore()}: Match bet {Matches[i].Bet}");
+            }
         }
         Console.WriteLine("********************************");
     }
