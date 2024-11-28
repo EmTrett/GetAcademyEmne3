@@ -36,4 +36,15 @@ public class Person(
         
         return description;
     }
+
+    public string GetChildDescription()
+    {
+        var description = "";
+        if (FirstName != null) description += FirstName + " ";
+        if (LastName != null) description += LastName + " ";
+        if (Id != 0) description += $"(Id={Id})";
+        if (BirthYear != 0) description += $" Født: {BirthYear}";
+        
+        return description;
+    }
 }
