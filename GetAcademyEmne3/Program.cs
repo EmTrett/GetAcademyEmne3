@@ -7,39 +7,43 @@ using GetAcademyEmne3.Assignments.Assignments321.Assignment321B;
 using GetAcademyEmne3.Assignments.Assignments321.Assignment321C;
 using GetAcademyEmne3.Assignments.Assignments323.Assignment323B;
 using GetAcademyEmne3.Assignments.Assignments323.Assignment323C;
+using GetAcademyEmne3.Assignments.Assignments329.Assignment329A;
 
 // var assignment315A = new Assignment315A();
-// Assignment315A.Run();
+// assignment315A.Run();
 
 // var assignment315C = new Assignment315C();
-// Assignment315C.Run();
+// assignment315C.Run();
 
 // var assignment315D = new Assignment315D();
-// Assignment315D.Run();
+// assignment315D.Run();
 
 // var assignment315E = new Assignment315E();
-// Assignment315E.Run(10,500,30);
+// assignment315E.Run(10,500,30);
 
 // var assignment315G = new Assignment315G();
-// Assignment315G.Run();
+// assignment315G.Run();
 
 // var assignment315I = new Assignment315I();
-// Assignment315I.Run(["2", "LddlsL"]);
+// assignment315I.Run(["2", "LddlsL"]);
 
 // var assignment321A = new Assignment321A();
-// Assignment321A.Run();
+// assignment321A.Run();
 
 // var assignment321C = new Assignment321C();
-// Assignment321C.Run();
+// assignment321C.Run();
 
 // var assignment321B = new Assignment321B();
-// Assignment321B.Run();
+// assignment321B.Run();
 
 // var assignment323A = new Assignment323A();
-// Assignment323A.Run();
+// assignment323A.Run();
 
-var assignment323B = new Assignment323B();
-Assignment323B.Run();
+// var assignment323B = new Assignment323B();
+// assignment323B.Run();
 
 // var assignment323C = new Assignment323C();
-// Assignment323C.Run();
+// assignment323C.Run();
+
+var assignment329A = new Assignment329A();
+assignment329A.Run();
