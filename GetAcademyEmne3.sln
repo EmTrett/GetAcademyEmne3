@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slektstre.Console", "Slekts
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slektstre.Tests", "Slektstre.Tests\Slektstre.Tests.csproj", "{B9316FDC-9E2B-4C9F-8BE5-CE1F33F7C5C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomSquares.Console", "RandomSquares.Console\RandomSquares.Console.csproj", "{B6E9E3F5-E88A-4091-8886-F65D9B7EE652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomSquares.Tests", "RandomSquares.Tests\RandomSquares.Tests.csproj", "{1619219C-1D11-4852-81FD-5368D9BCA823}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{B9316FDC-9E2B-4C9F-8BE5-CE1F33F7C5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9316FDC-9E2B-4C9F-8BE5-CE1F33F7C5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9316FDC-9E2B-4C9F-8BE5-CE1F33F7C5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E9E3F5-E88A-4091-8886-F65D9B7EE652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E9E3F5-E88A-4091-8886-F65D9B7EE652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E9E3F5-E88A-4091-8886-F65D9B7EE652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E9E3F5-E88A-4091-8886-F65D9B7EE652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1619219C-1D11-4852-81FD-5368D9BCA823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1619219C-1D11-4852-81FD-5368D9BCA823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1619219C-1D11-4852-81FD-5368D9BCA823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1619219C-1D11-4852-81FD-5368D9BCA823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
