@@ -14,9 +14,11 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AString_002EManipulation_002Ecs_002Fl_003AC_0021_003FUsers_003FEmilie_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fe75a5575ba872c8ea754c015cb363850e6c661f39569712d5b74aaca67263c_003FString_002EManipulation_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AThrowHelpers_002Ecs_002Fl_003AC_0021_003FUsers_003FEmilie_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fbb2a94dce7ca55a596694df58d3ca91c6d9c9c9c9813775e4d1abd0f91dc59_003FThrowHelpers_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AType_002ECoreCLR_002Ecs_002Fl_003AC_0021_003FUsers_003FEmilie_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F5cde391207de75962d7bacb899ca2bd3985c86911b152d185b58999a422bf0_003FType_002ECoreCLR_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=570caa73_002D8532_002D4ceb_002Da513_002D84ed5e41b7d6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;RandomSquares.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="E:\Koding filer\GetAcademyEmne3\RandomSquares.Tests" Presentation="&amp;lt;RandomSquares.Tests&amp;gt;" /&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=419b227a_002D48df_002D4f8d_002Dbae3_002D5d52f6b99a12/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;BankApp.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="E:\Koding filer\GetAcademyEmne3\BankApp.Tests" Presentation="&amp;lt;BankApp.Tests&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	
+	
 	
 	
 	
