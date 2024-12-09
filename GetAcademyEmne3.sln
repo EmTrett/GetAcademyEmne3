@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Console", "BankApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Tests", "BankApp.Tests\BankApp.Tests.csproj", "{03B8A6E1-99AC-4D79-835A-0E9806E0D9E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarsInterface.Console", "StarsInterface.Console\StarsInterface.Console.csproj", "{ADAA7D7D-BAF8-4169-915F-D06508161035}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{03B8A6E1-99AC-4D79-835A-0E9806E0D9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03B8A6E1-99AC-4D79-835A-0E9806E0D9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03B8A6E1-99AC-4D79-835A-0E9806E0D9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAA7D7D-BAF8-4169-915F-D06508161035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAA7D7D-BAF8-4169-915F-D06508161035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAA7D7D-BAF8-4169-915F-D06508161035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAA7D7D-BAF8-4169-915F-D06508161035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
