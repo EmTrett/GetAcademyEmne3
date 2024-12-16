@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarsInterface.Console", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickerWithInterface.Console", "ClickerWithInterface.Console\ClickerWithInterface.Console.csproj", "{A96F359E-D9D7-4F3F-B6B1-2BD6DCF3E584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsletterSubscription", "NewsletterSubscription\NewsletterSubscription.csproj", "{606C88A8-F266-4BA0-942D-B18956B116C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceResults.Console", "RaceResults.Console\RaceResults.Console.csproj", "{68EC28EB-55E3-46B8-8AAF-A51EB4072E41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +88,13 @@ Global
 		{A96F359E-D9D7-4F3F-B6B1-2BD6DCF3E584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96F359E-D9D7-4F3F-B6B1-2BD6DCF3E584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A96F359E-D9D7-4F3F-B6B1-2BD6DCF3E584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606C88A8-F266-4BA0-942D-B18956B116C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606C88A8-F266-4BA0-942D-B18956B116C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606C88A8-F266-4BA0-942D-B18956B116C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606C88A8-F266-4BA0-942D-B18956B116C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EC28EB-55E3-46B8-8AAF-A51EB4072E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EC28EB-55E3-46B8-8AAF-A51EB4072E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EC28EB-55E3-46B8-8AAF-A51EB4072E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EC28EB-55E3-46B8-8AAF-A51EB4072E41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
