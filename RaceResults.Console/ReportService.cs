@@ -3,58 +3,28 @@
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
 namespace RaceResults.Console;
 
-public class ReportService
+public class ReportService(string[] lines)
 {
-    private readonly ResultService _results = new ("timedate.csv");
+    private readonly ResultService _results = new (lines);
 
     public void ShowReport()
     {
         var didNotFinish = new List<TimeMeasurement?>();
         var finished = new List<TimeMeasurement?>();
         SortIfFinished(didNotFinish, finished);
-
-        ShowNoFinishButStarter(didNotFinish);
-        ShowFinished(finished);
-    }
-
-    private void ShowNoFinishButStarter(List<TimeMeasurement> timeMeasurements)
-    {
-        {
-            foreach (var tm in timeMeasurements)
-            {
-                if (tm.TimeAt5K == null)
-                {
-                    System.Console.WriteLine($"Startnr {tm.BibNumber}. Ble ikke ferdig");
-                }
-                else
-                {
-                    System.Console.WriteLine(
-                        $"Startnr {tm.BibNumber}: 5km tid {tm.ElapsedTime()}. Ble ikke ferdig");
-                }
-            }
-
-            System.Console.WriteLine("_________________________________________________________________________");
-        }
-    }
-
-    private void ShowFinished(List<TimeMeasurement?> finished)
-    {
         finished.Sort(Compare);
-        System.Console.WriteLine("Startnr Tid");
-        foreach (var timeMeasurement in finished)
-        {
-            System.Console.WriteLine($"{timeMeasurement.BibNumber,7} {timeMeasurement.ElapsedTime()}");
-        }
 
-        return;
-
-        int Compare(TimeMeasurement tmA, TimeMeasurement tmB)
-        {
-            var elapsedA = tmA.TimeAt10K.Value.ToTimeSpan() - tmA.TimeAtStart.Value.ToTimeSpan();
-            var elapsedB = tmB.TimeAt10K.Value.ToTimeSpan() - tmB.TimeAtStart.Value.ToTimeSpan();
-            return Convert.ToInt32(elapsedA.TotalMilliseconds - elapsedB.TotalMilliseconds);
-        }
+        WriteReportToConsole.ShowNoFinishButStarter(didNotFinish);
+        WriteReportToConsole.ShowFinished(finished);
     }
+
+    private int Compare(TimeMeasurement? tmA, TimeMeasurement? tmB)
+    {
+        var elapsedA = tmA.TimeAt10K.Value.ToTimeSpan() - tmA.TimeAtStart.Value.ToTimeSpan();
+        var elapsedB = tmB.TimeAt10K.Value.ToTimeSpan() - tmB.TimeAtStart.Value.ToTimeSpan();
+        return Convert.ToInt32(elapsedA.TotalMilliseconds - elapsedB.TotalMilliseconds);
+    }
+
 
     private void SortIfFinished(List<TimeMeasurement?> didNotFinish, List<TimeMeasurement?> finished)
     {

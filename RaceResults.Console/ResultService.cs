@@ -1,12 +1,12 @@
 namespace RaceResults.Console;
 
+
 internal class ResultService
 {
     public readonly List<TimeMeasurement?> TimeMeasurements;
 
-    public ResultService(string fileName)
+    public ResultService(string[] lines)
     {
-        var lines = File.ReadAllLines(fileName);
         TimeMeasurements = new List<TimeMeasurement?>();
         foreach (var line in lines)
         {
@@ -14,7 +14,7 @@ internal class ResultService
             var bibNumber = int.Parse(parts[0]);
             var time = TimeOnly.Parse(parts[1]);
             var km = int.Parse(parts[2]);
-            if (AlreadyExistingTimeMeasurement(bibNumber))
+            if (CheckIfAlreadyExistingTimeMeasurement(bibNumber))
             {
                 var tm = GetTimeMeasurement(bibNumber);
                 tm.ChangeTime(time, km);
@@ -24,7 +24,7 @@ internal class ResultService
         }
     }
 
-    private bool AlreadyExistingTimeMeasurement(int bibNumber)
+    private bool CheckIfAlreadyExistingTimeMeasurement(int bibNumber)
     {
         foreach (var tm in TimeMeasurements)
         {

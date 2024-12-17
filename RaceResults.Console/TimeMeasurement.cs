@@ -1,6 +1,6 @@
 namespace RaceResults.Console;
 
-internal class TimeMeasurement()
+public class TimeMeasurement()
 {
     public TimeMeasurement(int bibNumber, TimeOnly time, int km) : this()
     {
